@@ -1,0 +1,16 @@
+
+<web-app>
+
+    <display-name>Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>ClockServlets</servlet-name>
+        <servlet-class>ua.goit.java.ClockServlets</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ClockServlets</servlet-name>
+        <url-pattern>/ClockServlets</url-pattern>
+    </servlet-mapping>
+
+</web-app>
